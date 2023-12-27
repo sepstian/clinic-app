@@ -1,9 +1,14 @@
+import { Route, Routes, useNavigate } from 'react-router-dom'
 import "./App.css";
+import LoginPage from './pages/Login/Login';
+
 
 function App() {
   return (
     <>
-      <h1 className="text-[15px] font-bold text-red-500">Hello World</h1>
+      <Routes>
+        <Route path='/' element={<LoginPage/>}/>
+      </Routes>
     </>
   );
 }

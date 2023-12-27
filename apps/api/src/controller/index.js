@@ -1,3 +1,7 @@
 // import controller here
 // examp : const usersController = require("./users");
-module.exports = {};
+const accountController = require("./account")
+
+module.exports = {
+    accountController,
+};
