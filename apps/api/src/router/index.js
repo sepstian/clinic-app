@@ -1,3 +1,8 @@
 // import router here
 // examp : const usersRouter = require("./users");
-module.exports = {};
+
+const accountRouter = require("./account")
+
+module.exports = {
+    accountRouter
+};

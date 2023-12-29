@@ -1,0 +1,24 @@
+//REGISTER/LOGIN
+{
+  "username" : "coba123",
+  "password" : "abc123",
+  "role" : "super-admin"
+},
+
+{
+  "username" : "loginAdmin",
+  "password" : "testes",
+  "role" : "admin"
+},
+
+{
+  "username" : "Fisabilillah",
+  "password" : "doctor12",
+  "role" : "doctor"
+},
+
+{
+  "username" : "cobacashier",
+  "password" : "cashier123",
+  "role" : "cashier"
+}
